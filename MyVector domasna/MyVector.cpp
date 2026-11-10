@@ -96,7 +96,7 @@ public:
     void PrintVector() const
     {
         cout << "vector(" << vsize << ", " << vcap << "): [";
-        for (size_t i = 1; i < vsize; i++)
+        for (size_t i = 0; i < vsize; i++)
         {
             cout << vec[i];
             if (i + 1 < vsize) cout << ", ";
